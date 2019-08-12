@@ -52,6 +52,7 @@ export default class ScrollText extends React.Component {
       overflow: hidden;
       word-break: keep-all;
       white-space: nowrap;
+      width: 100%;
     `
 
     const ScrollText = styled.div`
