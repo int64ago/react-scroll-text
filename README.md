@@ -28,6 +28,22 @@ class Example extends Component {
 }
 ```
 
+## Props
+
+Available props for component:
+
+|Name|Descr|Default|
+|---|---|---|
+| `speed` | Set the animation speed (0-100) | 100 |
+
+#### Example with props
+
+```jsx
+<ScrollText speed={100}>
+   this'a a very long text...
+</ScrollText>
+```
+
 ## License
 
 MIT © [Cody Chan](https://github.com/int64ago)
